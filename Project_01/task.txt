@@ -5,6 +5,10 @@ GET/api/users- List all users
 GET/api/user/1-Get the user with ID 1
 GET/api/user/2-Get the user with ID 2
 
+Dynamic path parameters
+GET/api/users/:id
+:id ->Variable |Dynamic
+
 POST/api/users- create new user
 
 PATCH/api/users/1-Edit the user with ID 1
