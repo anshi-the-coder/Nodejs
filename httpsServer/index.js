@@ -2,8 +2,7 @@
 // const fs = require("fs");
 // const url = require("url");
 const express= require("express")
-
-const app = express(); // here app is a handler function
+const app = express();      // here app is a handler function
  app.get('/',(req,res)=>{
   return res.send("Hello From Home Page")
  })
@@ -11,7 +10,6 @@ const app = express(); // here app is a handler function
   return res.send(`Hello ${req.query.name}`)
  })
  app.listen(8000, ()=> console.log("Server Started!"))
-
 // function myHandler(req,res){
 //   // it takes callback function which can process my incoming request
 //   if (req.url === "/favicon.ico") return res.end();
