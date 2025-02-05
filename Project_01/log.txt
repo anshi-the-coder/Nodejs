@@ -3,3 +3,7 @@
 1738739737058: GET: /api/users/1004
 1738739871173: POST: /api/users/1004
 1738739936746: GET: /api/users/1004
+1738744031179: ::1 GET: /api/users
+1738747363567: ::1 GET: /api/users
+1738748439211: ::1 GET: /api/users
+1738749495126: ::1 GET: /api/users
