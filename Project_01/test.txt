@@ -1,0 +1,8 @@
+Schema - Define the structure
+ Schema - Model 
+
+ Product
+    -Name
+    -Manufacture Date
+    -Expiry Date 
+    -Ingredients
